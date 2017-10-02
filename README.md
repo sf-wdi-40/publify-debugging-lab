@@ -66,7 +66,6 @@ If necessary, install `imagemagick` (used by `mini_magick` gem).
 $ which convert
 # if you see path/to/bin/convert then STOP, otherwise...
 $ brew update
-$ brew link
 $ brew install imagemagick # this can take a while!
 ```
 
