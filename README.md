@@ -35,7 +35,7 @@ project alive.
 
 To install Publify you need the following:
 
-- [ ] Ruby >= 2.2.5
+- [ ] Ruby == 2.2.5
 - [ ] Ruby On Rails ~> 4.2.5
 - [ ] Postgresql
 - [ ] ImageMagick
@@ -55,9 +55,9 @@ If necessary, switch to ruby 2.2.5.
 
 ``` bash
 $ ruby -v
-# if ruby version >= 2.2.5 then STOP, otherwise...
-$ rvm get 2.2.5
-$ rvm use 2.2.5 --default # sets ruby-2.2.5 as global default
+# if ruby version == 2.2.5 then STOP, otherwise...
+$ rvm install 2.2.5
+$ rvm use 2.2.5  # you need to run this in EACH terminal tab/window you have open
 ```
 
 If necessary, install `imagemagick` (used by `mini_magick` gem).
@@ -72,6 +72,7 @@ $ brew install imagemagick # this can take a while!
 Finally, you should be ready to `bundle`:
 
 ``` bash
+$ gem install bundler
 $ bundle install
 ```
 
@@ -85,7 +86,7 @@ $ rake db:setup
 $ rake db:migrate
 ```
 
-Launch you browser and access 127.0.0.1:3000.
+Launch your browser and access `localhost:3000`.
 
 ```bash
 $ rails server
@@ -95,7 +96,7 @@ Supply a blog `title` and `email`:
 
 <img width="382" alt="setup blog screenshot" src="https://cloud.githubusercontent.com/assets/1489337/12763124/9cbd3a5e-c9a7-11e5-97e3-e39e6098adf3.png">
 
-Write down your *admin* `username` and `password`:
+**Write down** your *admin* `username` and `password`:
 
 <img width="380" alt="setup example login info screenshot" src="https://cloud.githubusercontent.com/assets/1489337/12763208/0440d834-c9a8-11e5-9c81-05a4b60e9722.png">
 
