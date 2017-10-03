@@ -43,15 +43,7 @@ To install Publify you need the following:
 #### Setup Dependencies
 First things first, **Fork** & Clone the Publify repo.
 
-If necessary, update `rake` to `~> 11.1`.
-
-``` bash
-$ rake --version
-# if rake version >= 11.1 then STOP, otherwise...
-$ bundle update rake
-```
-
-If necessary, switch to ruby 2.2.5.
+If necessary, switch to ruby 2.2.5. **You must be on EXACTLY Ruby 2.2.5 for Publify to run correctly. If you get an error about xmlrpc/client, it is because you're not running Ruby 2.2.5.**
 
 ``` bash
 $ ruby -v
@@ -69,7 +61,7 @@ $ brew update
 $ brew install imagemagick # this can take a while!
 ```
 
-Finally, you should be ready to `bundle`:
+Using ruby 2.2.5, you should be ready to install bundler and then run `bundle`:
 
 ``` bash
 $ gem install bundler
@@ -77,6 +69,15 @@ $ bundle install
 ```
 
 > Stop and check for **errors** in your bundle output. (A "warning" is not an error! Warnings are okay for now, but errors are bad!)
+
+If necessary, update `rake` to `~> 11.1`.
+
+``` bash
+$ rake --version
+# if rake version >= 11.1 then STOP, otherwise...
+$ bundle update rake
+```
+
 
 #### Setup Rails Application
 Now we'll set up and seed our database:
