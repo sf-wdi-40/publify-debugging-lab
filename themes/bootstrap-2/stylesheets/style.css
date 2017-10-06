@@ -76,12 +76,21 @@ body {
 
 #sidebar {
   padding-top: 24px;
+
 }
 
 #sidebar .sidebar-title {
-  font-family: monospace;
+  
 }
 
 #sidebar .sidebar-body li {
+ list-style-type: circle;
+  font-family: monospace;
+}
+#sidebar .sidebar-body li {
+ list-style-type: circle;
+  font-family: monospace;
+}
+#archives li {
   list-style-type: circle;
 }
