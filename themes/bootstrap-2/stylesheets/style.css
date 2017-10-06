@@ -74,14 +74,17 @@ body {
   margin-left: 76px;
 }
 
-#sidebar {
+/*#sidebar {
   padding-top: 24px;
-}
+}*/
 
-#sidebar .sidebar-title {
+#sidebar {
   font-family: monospace;
 }
 
 #sidebar .sidebar-body li {
+  list-style-type: circle;
+}
+#archives li {
   list-style-type: circle;
 }
