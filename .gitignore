@@ -24,7 +24,7 @@ tmp/*
 nbproject
 public/cache/*
 .rbenv-version
-.ruby-version
+.ru
 .bundle/
 .sass-cache/
 /vendor/bundle
@@ -32,3 +32,4 @@ public/cache/*
 !/themes/bootstrap-2
 !/themes/plain
 gems/
+.idea/
