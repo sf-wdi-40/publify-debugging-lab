@@ -78,10 +78,10 @@ body {
   padding-top: 24px;
 }
 
-#sidebar .sidebar_title {
+#sidebar .sidebar-title {
   font-family: monospace;
 }
 
-#sidebar .sidebar_body li {
+#sidebar .sidebar-body li {
   list-style-type: circle;
 }
