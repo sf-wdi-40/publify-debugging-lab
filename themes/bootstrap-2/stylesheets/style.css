@@ -76,8 +76,12 @@ body {
 
 #sidebar {
   padding-top: 24px;
-  font-family: monospace
+
 }
-li {
+#sidebar .sidebar-title {
+  font-family: monospace;
+ }
+
+ #sidebar .sidebar-body li {
   list-style-type: circle;
 }
