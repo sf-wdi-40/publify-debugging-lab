@@ -78,13 +78,14 @@ body {
   padding-top: 24px;
 }*/
 
-#sidebar {
+#sidebar .sidebar-title {
   font-family: monospace;
 }
 
 #sidebar .sidebar-body li {
   list-style-type: circle;
 }
-#archives li {
+
+#archives {
   list-style-type: circle;
 }
