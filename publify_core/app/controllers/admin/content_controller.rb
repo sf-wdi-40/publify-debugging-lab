@@ -36,7 +36,6 @@ class Admin::ContentController < Admin::BaseController
   def create
     article_factory = Article::Factory.new(this_blog, current_user)
     @article = article_factory.get_or_build_from(params[:article][:id])
-
     update_article_attributes
 
     if @article.save
